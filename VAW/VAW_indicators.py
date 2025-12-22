@@ -32,7 +32,7 @@ def find_all_VAW_indicators(ind_df):
     #valid numeric data so that is the only one we are able to use for the "Violence Against Women" category
 
 
-    search_words = ["intimate partner violence prevalence"]
+    search_words = ["intimate partner violence", "non-partner sexual violence prevalence"]
     
     pattern = '|'.join(search_words)
     mask = ind_df["IndicatorName"].str.contains(pattern, case=False, na=False)
