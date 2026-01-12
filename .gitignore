@@ -1,0 +1,12 @@
+# macOS junk
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+
+# CSV policy: ignore by default
+*.csv
+
+# Track only Paulina indicator outputs
+!Paulina_Indicators/**/output/*.csv
